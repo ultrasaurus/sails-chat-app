@@ -1,11 +1,6 @@
-/**
- * MainController
- *
- * @description :: Server-side logic for managing mains
- * @help        :: See http://links.sailsjs.org/docs/controllers
- */
-
-module.exports = {
-	
+var MainController = {
+    index: function (req, res) {
+      res.view();
+    },
 };
-
+module.exports = MainController;
